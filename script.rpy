@@ -1,33 +1,13 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define m = Character("M3LON")
-
-
-# The game starts here.
+define k = Character("Koyuki")
+define f = Character("Fuwari")
+define n = Character("Natsumi")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene cute
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-
-
-    # These display lines of dialogue.
-
+    
     m "hiya"
-
-    m "yo"
-
-    # This ends the game.
+    f "yo"
+    n "hello"
 
     return
