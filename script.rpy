@@ -9,5 +9,7 @@ label start:
     pause
     f "Good morning!"
     m "Morning! How are you?"
-
+    f "I'm fine. Speaking of which, are you the new neighbour?"
+    m "Yea, I am. It seems like you're from the same school as me."
+    show 
 return
