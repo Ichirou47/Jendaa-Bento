@@ -4,7 +4,8 @@ define n = Character("Natsumi")
 
 label start:
 
-    show fuwasmileopen
+    show fuwagood
+   
     pause
     f "yo"
     k "hiya"
