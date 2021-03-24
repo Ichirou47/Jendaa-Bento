@@ -4,10 +4,10 @@ define n = Character("Natsumi")
 
 label start:
 
-    scene cute
-    
-    m "hiya"
+    show fuwasmileopen
+    pause
     f "yo"
+    k "hiya"
     n "hello"
 
-    return
+return
