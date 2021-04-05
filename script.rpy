@@ -21,7 +21,7 @@ label start:
 
     "Also the first day for many other freshmen like me"
 
-    "I wonder what's in store for me here at New Gekkoukan High"
+    "I wonder what's in store for me here at Maple High"
 
     "*walks toward the school bulletin board*"
 
