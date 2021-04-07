@@ -57,4 +57,6 @@ label start:
 
     "Oh god, I don't think my highschool life here will be normal.."
 
+    scene
+
 return
