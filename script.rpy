@@ -57,6 +57,10 @@ label start:
 
     "Oh god, I don't think my highschool life here will be normal.."
 
-    scene
+    scene school with wipedown
+
+    show fuwa mad at hidari
+
+    f "Hey,look out! You almost bumped into me!"
 
 return
