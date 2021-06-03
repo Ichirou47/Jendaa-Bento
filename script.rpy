@@ -27,13 +27,13 @@ label start:
 
     show fuwa smile open with dissolve
     pause
-    f "yo"
+    f "Yo"
     show fuwa smile open at hidari with move
     pause
     #koyuki smile with transform and transition
-    k "hiya"
+    k "Hiya"
     #natsumi smile with transform and transition
-    n "hello"
+    n "Hello"
 
     f "We're 3 of the 4 main heroines in this Visual Novel"
 
@@ -63,4 +63,11 @@ label start:
 
     f "Hey,look out! You almost bumped into me!"
 
+    y "Oh! Sorry about that, I didnt see you there."
+
+    f "Yeah! You could've passed by me if I didn't say anything"
+
+    "I stood there awkwardly, still surprised by how easily she strikes up a conversation,
+    not to mention how pretty she is. Her eyes scanned up and down, seemingly annoyed by me,
+    or just checking me out."
 return
