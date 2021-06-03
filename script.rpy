@@ -70,4 +70,23 @@ label start:
     "I stood there awkwardly, still surprised by how easily she strikes up a conversation,
     not to mention how pretty she is. Her eyes scanned up and down, seemingly annoyed by me,
     or just checking me out."
+
+    f "Good morning!"
+
+    y "Good morning."
+
+    f "So, you're heading to school too?"
+
+    y "Yeah"
+
+    y "(come on dude say something)"
+
+    f "Well..."
+
+    f "Please excuse me, I gotta hurry up cuase my friend is waiting for me. "
+
+    y "Oh yeah sure."
+
+    f "See ya!"
+
 return
