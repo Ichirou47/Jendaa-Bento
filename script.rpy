@@ -3,6 +3,7 @@ define y = "You"
 define k = Character("Koyuki",color="#ec76f5")
 define f = Character("Fuwari",color="#fcdc3d")
 define n = Character("Natsumi",color="#5eeb86")
+define ku = Character("Kuga", color="954535")
 #define all transforms here
 transform hidari:
     xalign 0.0
@@ -70,6 +71,10 @@ label start:
     "I stood there awkwardly, still surprised by how easily she strikes up a conversation,
     not to mention how pretty she is. Her eyes scanned up and down, seemingly annoyed by me,
     or just checking me out."
+
+    scene school with fade
+
+    show fuwa good at migi
 
     f "Good morning!"
 
