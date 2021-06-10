@@ -88,7 +88,7 @@ label start:
 
     f "Well..."
 
-    f "Please excuse me, I gotta hurry up cuase my friend is waiting for me. "
+    f "Please excuse me, I gotta hurry up cause my friend is waiting for me. "
 
     y "Oh yeah sure."
 
