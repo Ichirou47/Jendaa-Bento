@@ -26,38 +26,6 @@ label start:
 
     "*walks toward the school bulletin board*"
 
-    show fuwa smile open with dissolve
-    pause
-    f "Yo"
-    show fuwa smile open at hidari with move
-    pause
-    #koyuki smile with transform and transition
-    k "Hiya"
-    #natsumi smile with transform and transition
-    n "Hello"
-
-    f "We're 3 of the 4 main heroines in this Visual Novel"
-
-    f "Pleased to meet you!"
-
-    y "Uhh... Nice to meet you?.."
-
-    show fuwa laugh at hidari
-
-    f "The MC's quite a cutie don't you think so Koyu-chi?"
-
-    k "Uhhm... Yeah... I guess..."
-
-    f "What about you Natsumi?"
-
-    n "Yeah... he does look rather cute"
-
-    "What's up with these girls?!.."
-
-    "Visual Novel?!.."
-
-    "Oh god, I don't think my highschool life here will be normal.."
-
     scene school with wipedown
 
     show fuwa mad at hidari
@@ -80,7 +48,7 @@ label start:
 
     y "Good morning."
 
-    f "So, you're heading to school too?"
+    f "So, you're heading to class too?"
 
     y "Yeah"
 
