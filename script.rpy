@@ -62,4 +62,15 @@ label start:
 
     f "See ya!"
 
-return
+    "She trots ahead of me looking as if she doesnt want to be slowed down by anything.
+    I lost sight of her when she took the next turn, and by then it felt like the tension in
+    the air was snapped away..... Man, couldn't I have said something there? I thought all of
+    those manga I've read would help me strike conversations but once you're in the spot.....
+    You're in the spotlight!"
+
+    y "Maybe i should join the speech club instead..... Nah, i'd rather be dead.
+       But how come I've never bumped into her on my first day? I've been using the
+       same route and nothing happened before. Maybe its just my luck....."
+
+       
+       return
