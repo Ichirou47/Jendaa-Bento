@@ -132,5 +132,5 @@ label start:
 
     ku "..."
 
-       
-       return
+
+    return
