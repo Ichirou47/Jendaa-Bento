@@ -1,40 +1,67 @@
-#define all characters here
+#define all characters here----------
 define y = "You"
-define k = Character("???",color="#ec76f5")
-define ko = Character("Koyuki",color="#ec76f5")
-define f = Character("Fuwari",color="#fcdc3d")
-define n = Character("???",color="#5eeb86")
-define na = Character("Natsumi",color="#5eeb86")
+define ko = DynamicCharacter("ko")#("Koyuki",color="#ec76f5")
+define f = DynamicCharacter("f")#("Fuwari",color="#fcdc3d")
+define na = DynamicCharacter("na")#("Natsumi",color="#5eeb86")
+define m = DynamicCharacter("m")#("Melissa") <<<---Needs color---
 define ku = Character("Kuga", color="#954535")
-#define all transforms here
+
+#define all transforms here----------
 transform hidari:
     xalign 0.0
     yalign 1.0
 transform migi:
     xalign 1.0
     yalign 1.0
-#game start
-label start:
-    #test label for game
 
-    scene school with fade
+#game start----------
+label start:
+    $f = Character("???",color="#fcdc3d")
+
+    scene bg mcroom with fade
     pause
 
-    "My first day of school..."
+    "(Juuuust one more chapter). But lowkey, I know I am psychologically unconvinced of myself if I could even go that far."
 
-    "Also the first day for many other freshmen like me"
+    "Laying on my right on this travel futon in a dark and almost empty room, I finally shift my eyes to the clock on my phone
+    and notice it's already 12:30 am."
 
-    "I wonder what's in store for me here at Maple High..."
+    "Groaning in annoyance, I reluctantly lock the phone and try to sleep. (At least it didn’t end at a cliffhanger) I thought,
+    because if it did, I would physically need to read more. But tomorrow is an important day of school as a first year."
 
-    "{i}walks toward the school bulletin board{/i}"
+    "The day I got to pick my after school club. Of course, I know what I’m going to choose already."
 
-    scene school with wipedown
+    "But now that I think about it, I still haven't unpack like half of my luggage. Maybe I’ll do it on the weekend.
+    But now that I think about it again, I could use the weekend to read some more chapters."
 
-    show fuwa mad at hidari
+    "I ponder at the mental list of mangas
+    to read on my wish list, and decided that maybe I should do it tomorrow"
+
+    scene bg neighborhood with fade
+
+    "After a lonely breakfast in my uncle’s apartment, I made my way down the street toward my new school. This is the early season of spring,
+    reminding me of the picnic memories with my family back in (insert village name) under the cherry blossoms. But as that reminiscence creeps,
+    I snap myself to reality."
+
+    "I’m a big high schooler now! I gotta be independant. (Poor ol’ uncle (name) won’t always be there for me!).
+    This was the only way I could continue studying, unfortunately."
+
+    "I mean, I wouldn’t have minded staying back home in the rurals, but all the big shot certificates are here in the city! Well,
+    not the “city” city, this is a suburb… Speaking of which, these house walls (or gates?) look like the spitting image
+    straight out of some romcom."
+
+    "I wonder who’s gonna pop up from the other side of this corner I’m approaching at a totally regular walking speed
+    totally oblivious of the total chances I might bump into a total stranger…"
+
+    "(Nobody was there)"
+
+    show fuwa mad
 
     f "Hey,look out! You almost bumped into me at the corner and became my friend like in the mangas~!"
 
     y "Oh! Sorry about that, I didnt see you there."
+
+    show fuwa pout
 
     f "Yeah! You could've passed by me if I didn't say anything"
 
@@ -58,33 +85,45 @@ label start:
 
     f "Well..."
 
+    show fuwa smile closed at migi
+
     f "Please excuse me, I gotta hurry up cause my friend is waiting for me. "
 
     y "Oh yeah sure."
 
+    show fuwa smile open at migi
+
     f "See ya!"
+
+    hide fuwa smile open
 
     "She trots ahead of me looking as if she doesnt want to be slowed down by anything.
     I lost sight of her when she took the next turn, and by then it felt like the tension in
-    the air was snapped away..... Man, couldn't I have said something there? I thought all of
+    the air was snapped away....."
+
+    "Man, couldn't I have said something there? I thought all of
     those manga I've read would help me strike conversations but once you're in the spot.....
     You're in the spotlight!"
 
     y "Maybe i should join the speech club instead..... Nah, i'd rather be dead.
-       But how come I've never bumped into her on my first day? I've been using the
-       same route and nothing happened before. Maybe its just my luck....."
+    But how come I've never bumped into her on my first day? I've been using the
+    same route and nothing happened before. Maybe its just my luck....."
 
     y "Wait a minute, she mentioned manga. That means she’s a reader too!
-      I wonder if I’ll get to see her again since I’m going for the manga club.
-      But if that is really going to happen, I better prepare my guts.
-      Regardless, I kept going until I finally got to class and the school day started."
+    I wonder if I’ll get to see her again since I’m going for the manga club."
+
+    y "But if that is really going to happen, I better prepare my guts."
+
+    "Regardless, I kept going until I finally got to class and the school day started."
 
     "It was already lunch time, and the second our maths teacher turned to face the door to
     begin his exit, the guy sitting in front of me turned his chair around to face my gaze..."
 
-    ku " So you’re certain, you’re going for the manga club? (He asked with an “unconvinced” tone in his voice.
-         Despite being quite a speaker, he always manages to keep a cool face when he talks.
-         Sometimes it’s hard for me to tell if he’s exaggerating things."
+    ku "So you’re certain, you’re going for the manga club?"
+    
+    "He asked with an *unconvinced* tone in his voice.
+    Despite being quite a speaker, he always manages to keep a cool face when he talks.
+    Sometimes it’s hard for me to tell if he’s exaggerating things."
 
     y "100 percent certain"
 
