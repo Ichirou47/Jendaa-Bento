@@ -20,13 +20,13 @@ label start:
     scene school with fade
     pause
 
-    "My first day of school"
+    "My first day of school..."
 
     "Also the first day for many other freshmen like me"
 
-    "I wonder what's in store for me here at Maple High"
+    "I wonder what's in store for me here at Maple High..."
 
-    "*walks toward the school bulletin board*"
+    "{i}walks toward the school bulletin board{/i}"
 
     scene school with wipedown
 
@@ -86,7 +86,7 @@ label start:
          Despite being quite a speaker, he always manages to keep a cool face when he talks.
          Sometimes it’s hard for me to tell if he’s exaggerating things."
 
-    y "100% certain"
+    y "100 percent certain"
 
     ku "Dangit dude, I mean, I like reading manga as much as the next person,
         but... I could read them at home you know... "
@@ -116,9 +116,9 @@ label start:
 
     ku "Anyways, what about... the art club?"
 
-    y "I can't draw"
+    y "I can't draw."
 
-    ku "They might teach you"
+    ku "They might teach you ?"
 
     y "I'll pass"
 
