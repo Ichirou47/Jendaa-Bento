@@ -1,10 +1,11 @@
 #define all characters here----------
 define y = "You"
-define ko = DynamicCharacter("ko")#("Koyuki",color="#ec76f5")
-define f = DynamicCharacter("f")#("Fuwari",color="#fcdc3d")
-define n = DynamicCharacter("n")#("Natsumi",color="#5eeb86")
-define m = DynamicCharacter("m")#("Melissa") <<<---Needs color---
+define ko = Character("Koyuki",color="#ec76f5")
+define f = Character("Fuwari",color="#fcdc3d")
+define n = Character("Natsumi",color="#5eeb86")
+define m = Character("Melissa")#<<<---Needs color---
 define ku = Character("Kuga", color="#954535")
+define u = DynamicCharacter("u")#Unknown character
 
 #define all transforms here----------
 transform hidari:
@@ -17,9 +18,7 @@ transform migi:
 #game start----------
 label start:
     #just do this if you wanna change the name/color for a character
-    $f = Character("???",color="#fcdc3d")
-    $ko = Character("???",color="#ec76f5")
-    $n = Character("???",color="#5eeb86")
+    $u = Character("???",color="#fcdc3d")#Fuwari
 
     scene bg mcroom with fade
     pause
@@ -70,13 +69,13 @@ label start:
     "Still I can’t help but think about stuff like {b}that{/b}.
     Like, bumping into someone at a corner and we become friends like in the mang-"
 
-    f "{i}Woah~ there!{/i}"
+    u "{i}Woah~ there!{/i}"
 
     "(Huh?). I suddenly shift my head over to the source of the voice."
 
     show fuwa mad with fade
 
-    f "You almost bumped into me at the corner and became my friend like in those mangas~!"
+    u "You almost bumped into me at the corner and became my friend like in those mangas~!"
 
     "I look over at the sudden appearance of a girl to my left. She stood as tall as me and almost a little too close."
 
@@ -84,7 +83,7 @@ label start:
 
     show fuwa pout
 
-    f "Yeah! You could've passed by me if I didn't say anything"
+    u "Yeah! You could've passed by me if I didn't say anything"
 
     "I am genuinely surprised at how easily she strikes a conversation with me."
 
@@ -96,29 +95,29 @@ label start:
 
     show fuwa smile open
 
-    f "Anyways..."
+    u "Anyways..."
 
-    f "Good morning!"
+    u "Good morning!"
 
     y "Uhh... Good morning."
 
-    f "So, you're heading to class too?"
+    u "So, you're heading to class too?"
 
     y "Yeah"
 
     y "(come on dude say something)"
 
-    f "Well..."
+    u "Well..."
 
     show fuwa smile closed
 
-    f "Please excuse me, I gotta hurry up cause my friend is waiting for me. "
+    u "Please excuse me, I gotta hurry up cause my friend is waiting for me. "
 
     y "Oh yeah sure."
 
     show fuwa smile open
 
-    f "See ya!"
+    u "See ya!"
 
     hide fuwa smile open
 
@@ -175,7 +174,8 @@ label start:
     y "I'd rather do my homework then bust my brain on some board pieces in front of someone likely smarter
     than me and suffer the inevitable loss of my intellectual pride."
 
-    ko "{i}Pfft!{/i}"
+    $u = Character("???",color="#ec76f5")#Koyuki
+    u "{i}Pfft!{/i}"
 
     "I heard a barely audible puffing sound from someone's voice. Glancing to my right at the source of it,
     the girl next to my table retracted her face away in an attempt to hide her mini laughing fit."
@@ -223,27 +223,27 @@ label start:
 
     y "N-"
 
-    n "Nope!"
+    $u = Character("???",color="#5eeb86")
+    u "Nope!"
 
     "We both suddenly heard a reply from elsewhere."
 
-    n "You’ll have to bring your own instrument if you wanna join the music club."
+    u "You’ll have to bring your own instrument if you wanna join the music club."
 
     "This time, it was a different girl, she sat across the same table from my neighbour mini-laughing-fit-girl.
     It seems that they’re both having lunch together with their bentos already."
 
     ku "How do you know?"
 
-    n "I asked the seniors!"
+    u "I asked the seniors!"
 
     ku "Oh. You plan on joining the music club?"
 
-    n "Well yeah~, and I’m sorry but you can only join if you’ve got your own gear."
+    u "Well yeah~, and I’m sorry but you can only join if you’ve got your own gear."
 
     y "Wait a minute. You’re not from this class"
 
-    n "Uh… yeah. I’m from 1-C. I’m just eating with Koyuki here…"
-    $ko = Character("Koyuki",color="#ec76f5")#<<<-----Name Reveal-----
+    u "Uh… yeah. I’m from 1-C. I’m just eating with Koyuki here…"
 
     "(koyuki huh?.. but what's her Surname?..)"
 
@@ -251,10 +251,10 @@ label start:
 
     "God bless you for your existence Kuga"
 
-    n "Yeah, we’ve been friends for a long time. I’m Aizawa, by the way. Nice to meet you"
-    $n = Character("Aizawa",color="#5eeb86")
+    u "Yeah, we’ve been friends for a long time. I’m Aizawa, by the way. Nice to meet you"
 
     "(Aizawa Aizawa Aizawa Aizawa. Must remember. Aizawa Aizawa Aizawa Aizawa)"
+    $u = Character("Aizawa",color="#5eeb86")
 
     ku "I’m Shinri, this is Tetsuya-san"
 
@@ -264,6 +264,6 @@ label start:
     But awkwardly enough, she points her head down shyly and I think I could make out her eyeballs looking over at Aizawa.
     Is she actually shy...?)"
 
-    n "Owh don’t mind her, she’s shy like that. Which is why I come here to keep her company (Aizawa retorts Aoki’s eyeballing with an annoyed glare in return)."
+    u "Owh don’t mind her, she’s shy like that. Which is why I come here to keep her company (Aizawa retorts Aoki’s eyeballing with an annoyed glare in return)."
 
 return
