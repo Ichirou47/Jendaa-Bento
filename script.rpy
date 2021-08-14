@@ -2,7 +2,7 @@
 define y = "You"
 define ko = DynamicCharacter("ko")#("Koyuki",color="#ec76f5")
 define f = DynamicCharacter("f")#("Fuwari",color="#fcdc3d")
-define na = DynamicCharacter("na")#("Natsumi",color="#5eeb86")
+define n = DynamicCharacter("n")#("Natsumi",color="#5eeb86")
 define m = DynamicCharacter("m")#("Melissa") <<<---Needs color---
 define ku = Character("Kuga", color="#954535")
 
@@ -16,8 +16,10 @@ transform migi:
 
 #game start----------
 label start:
+    #just do this if you wanna change the name/color for a character
     $f = Character("???",color="#fcdc3d")
     $ko = Character("???",color="#ec76f5")
+    $n = Character("???",color="#5eeb86")
 
     scene bg mcroom with fade
     pause
@@ -68,11 +70,11 @@ label start:
     "Still I can’t help but think about stuff like {b}that{/b}.
     Like, bumping into someone at a corner and we become friends like in the mang-"
 
-    "{i}Woah~ there!{/i}"
+    f "{i}Woah~ there!{/i}"
 
     "(Huh?). I suddenly shift my head over to the source of the voice."
 
-    show fuwa mad
+    show fuwa mad with fade
 
     f "You almost bumped into me at the corner and became my friend like in those mangas~!"
 
@@ -108,13 +110,13 @@ label start:
 
     f "Well..."
 
-    show fuwa smile closed at migi
+    show fuwa smile closed
 
     f "Please excuse me, I gotta hurry up cause my friend is waiting for me. "
 
     y "Oh yeah sure."
 
-    show fuwa smile open at migi
+    show fuwa smile open
 
     f "See ya!"
 
@@ -139,7 +141,7 @@ label start:
 
     "Regardless, I kept going until I finally got to class and the school day started."
 
-    show school with fade
+    scene school with fade
 
     "It was already lunch time, and the second our maths teacher turned to face the door to
     begin his exit, the guy sitting in front of me turned his chair around to face my gaze..."
@@ -201,5 +203,67 @@ label start:
 
     ku "..."
 
+    ku "How about one of the sports clubs…?"
 
-    return
+    y "..."
+
+    ku "..."
+
+    "We both burst out laughing"
+
+    ku "Anyway, next one... Music club?"
+
+    y "I don’t even have an instrument"
+
+    ku "You can buy one"
+
+    y "No money."
+
+    ku "They’ll probably lend you one…"
+
+    y "N-"
+
+    n "Nope!"
+
+    "We both suddenly heard a reply from elsewhere."
+
+    n "You’ll have to bring your own instrument if you wanna join the music club."
+
+    "This time, it was a different girl, she sat across the same table from my neighbour mini-laughing-fit-girl.
+    It seems that they’re both having lunch together with their bentos already."
+
+    ku "How do you know?"
+
+    n "I asked the seniors!"
+
+    ku "Oh. You plan on joining the music club?"
+
+    n "Well yeah~, and I’m sorry but you can only join if you’ve got your own gear."
+
+    y "Wait a minute. You’re not from this class"
+
+    n "Uh… yeah. I’m from 1-C. I’m just eating with Koyuki here…"
+    $ko = Character("Koyuki",color="#ec76f5")#<<<-----Name Reveal-----
+
+    "(koyuki huh?.. but what's her Surname?..)"
+
+    ku "Oh! You know Aoki-san"
+
+    "God bless you for your existence Kuga"
+
+    n "Yeah, we’ve been friends for a long time. I’m Aizawa, by the way. Nice to meet you"
+    $n = Character("Aizawa",color="#5eeb86")
+
+    "(Aizawa Aizawa Aizawa Aizawa. Must remember. Aizawa Aizawa Aizawa Aizawa)"
+
+    ku "I’m Shinri, this is Tetsuya-san"
+
+    y "Nice to meet you guys. And uh… Sorry Aoki-san, I guess this is the first time I’ve talked to you since the first day"
+
+    "(I looked over to my table-neighbour waiting for a reply.
+    But awkwardly enough, she points her head down shyly and I think I could make out her eyeballs looking over at Aizawa.
+    Is she actually shy...?)"
+
+    n "Owh don’t mind her, she’s shy like that. Which is why I come here to keep her company (Aizawa retorts Aoki’s eyeballing with an annoyed glare in return)."
+
+return
