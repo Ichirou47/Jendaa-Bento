@@ -17,6 +17,7 @@ transform migi:
 #game start----------
 label start:
     $f = Character("???",color="#fcdc3d")
+    $ko = Character("???",color="#ec76f5")
 
     scene bg mcroom with fade
     pause
@@ -40,14 +41,18 @@ label start:
     scene bg neighborhood with fade
 
     "After a lonely breakfast in my uncle’s apartment, I made my way down the street toward my new school. This is the early season of spring,
-    reminding me of the picnic memories with my family back in (insert village name) under the cherry blossoms. But as that reminiscence creeps,
+    reminding me of the picnic memories with my family back in (insert village name) under the cherry blossoms."
+
+    "But as that reminiscence creeps,
     I snap myself to reality."
 
     "I’m a big high schooler now! I gotta be independant. (Poor ol’ uncle (name) won’t always be there for me!).
     This was the only way I could continue studying, unfortunately."
 
     "I mean, I wouldn’t have minded staying back home in the rurals, but all the big shot certificates are here in the city! Well,
-    not the “city” city, this is a suburb… Speaking of which, these house walls (or gates?) look like the spitting image
+    not the “city” city, this is a suburb…"
+
+    "Speaking of which, these house walls (or gates?) look like the spitting image
     straight out of some romcom."
 
     "I wonder who’s gonna pop up from the other side of this corner I’m approaching at a totally regular walking speed
@@ -55,9 +60,23 @@ label start:
 
     "(Nobody was there)"
 
+    "I chuckled softly, lesson number one in the city : ‘Don’t get your hopes up'"
+
+    "Walking down this lonely road I thought about the friends I already made so far. It’s my third day here and I think
+    I’m finally losing the nervousness of being a total stranger to this new place."
+
+    "Still I can’t help but think about stuff like {b}that{/b}.
+    Like, bumping into someone at a corner and we become friends like in the mang-"
+
+    "{i}Woah~ there!{/i}"
+
+    "(Huh?). I suddenly shift my head over to the source of the voice."
+
     show fuwa mad
 
-    f "Hey,look out! You almost bumped into me at the corner and became my friend like in the mangas~!"
+    f "You almost bumped into me at the corner and became my friend like in those mangas~!"
+
+    "I look over at the sudden appearance of a girl to my left. She stood as tall as me and almost a little too close."
 
     y "Oh! Sorry about that, I didnt see you there."
 
@@ -65,17 +84,21 @@ label start:
 
     f "Yeah! You could've passed by me if I didn't say anything"
 
-    "I stood there awkwardly, still surprised by how easily she strikes up a conversation,
-    not to mention how pretty she is. Her eyes scanned up and down, seemingly annoyed by me,
-    or just checking me out."
+    "I am genuinely surprised at how easily she strikes a conversation with me."
 
-    scene school with fade
+    "That alone already puts her beyond my league,
+    not to mention the strength of her looks with her blonde hair tied up to a messy sort of ponytail waving through the weak morning wind."
 
-    show fuwa good at migi
+    "Still shocked at the matter, I stood there awkwardly, I’m seeing her eyes scanning up and down like she’s either annoyed at me,
+    or is checking me out?"
+
+    show fuwa smile open
+
+    f "Anyways..."
 
     f "Good morning!"
 
-    y "Good morning."
+    y "Uhh... Good morning."
 
     f "So, you're heading to class too?"
 
@@ -116,11 +139,13 @@ label start:
 
     "Regardless, I kept going until I finally got to class and the school day started."
 
+    show school with fade
+
     "It was already lunch time, and the second our maths teacher turned to face the door to
     begin his exit, the guy sitting in front of me turned his chair around to face my gaze..."
 
     ku "So you’re certain, you’re going for the manga club?"
-    
+
     "He asked with an *unconvinced* tone in his voice.
     Despite being quite a speaker, he always manages to keep a cool face when he talks.
     Sometimes it’s hard for me to tell if he’s exaggerating things."
@@ -128,13 +153,16 @@ label start:
     y "100 percent certain"
 
     ku "Dangit dude, I mean, I like reading manga as much as the next person,
-        but... I could read them at home you know... "
+    but... I could read them at home you know... "
 
     "I was looking around the room seeing the other students walking about. Almost staring into nothingness.
-    It was lucky of me to have a seat at the rear-left corner of the class. It gave me a full view of the class.
-    I recgonized some new faces entering the classroom too. it seems that some people already made friends
-    with the other classes. Seeing the sight gave me a pinch of nostalgic feeling from my old school back
-    at home. Anyway, back to Kuga."
+    It was lucky of me to have a seat at the rear-left corner of the class."
+
+    "It gave me a full view of the class.I recgonized some new faces entering the classroom too.
+    it seems that some people already made friends with the other classes."
+
+    "Seeing the sight
+    gave me a pinch of nostalgic feeling from my old school back at home. Anyway, back to Kuga."
 
     y "Bro... Manga is my passion! My identity... My freaking purpose is to live!
     (I raised my voice a little higher, exaggerating my enthusiasm a bit.) i can't throw my chance
@@ -145,11 +173,13 @@ label start:
     y "I'd rather do my homework then bust my brain on some board pieces in front of someone likely smarter
     than me and suffer the inevitable loss of my intellectual pride."
 
-    k "{i}Pfft!{/i}"
+    ko "{i}Pfft!{/i}"
 
     "I heard a barely audible puffing sound from someone's voice. Glancing to my right at the source of it,
-    the girl next to my table retracted her face away in an attempt to hide her mini laughing fit. That's
-    pretty cool though. i made a girl laugh. I think. Arghh, but i didnt catch her name last time. Why am I
+    the girl next to my table retracted her face away in an attempt to hide her mini laughing fit."
+
+    "That's
+    pretty cool though, i made a girl laugh... I think. Arghh, but i didnt catch her name last time. Why am I
     so bad at this? Anyway, i figured i should keep my voice down a little. And it seems, Kuga still has
     some more to say to me..."
 
